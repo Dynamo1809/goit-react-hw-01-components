@@ -1,0 +1,44 @@
+.transaction_history {
+  margin-top: 20px;
+  width: 350px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  background-color: rgb(236, 137, 24);
+}
+
+.transaction_head {
+  color: white;
+  background-color: rgb(41, 189, 226);
+}
+
+.transaction_title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.transaction_body {
+  background-color: rgb(233, 221, 213);
+}
+
+.transaction_type {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: grey;
+}
+
+.transaction_amount {
+  font-size: 18px;
+  color: grey;
+}
+
+.transaction_currency {
+  font-size: 18px;
+  color: grey;
+}

@@ -9,7 +9,7 @@ background-color: ${props => props.isOnline ? 'green' : 'red'};
 const FriendListItem = ({ avatar, name, isOnline}) => {
   return (
     <li className={styles.item}>
-      <Span isOnline={isOnline} className={styles.status}></Span>
+      <Span isOnline={isOnline} className={styles.status} />
       <img className={styles.avatar} src={avatar} alt={name} width="48" />
       <p className={styles.name}>{name}</p>
     </li>
